@@ -1,11 +1,20 @@
 # AI_Hackathon
 
-The rules for AI Hackathon will be updated shortly 
+### Topic: Use transfer learning to solve a real world problem.
+##### Time is 24 hours
+So submit a pull request within the stipulated time along with a readme file that explais how to run the code 
 
-# Team Name
+### Some key pointers:
+1. Identify a problem you are passionate about
+2. Then find a relevant dataset(It may be small but that is where transfer learning becomes important)
+3. Use a suitable model and apply the learnings
+
+
+
+
+# Team_Name 
 Matrix Agents
-
-# Team Members
-1. Aadi Gupta
-2. Animesh Tiwari
-3. Dibyakanti Kumar
+## XYZ
+- Aadi Gupta
+- Animesh Tiwari
+- Dibyakanti Kumar
