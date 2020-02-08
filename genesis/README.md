@@ -18,7 +18,7 @@
     *Use case:* Keeping a record of current events serving as a time-capsule of humanity.
     
 ## Approach
-<img src="https://github.com/tejasvi/AI_Hackathon/raw/master/overview.svg?sanitize=true">
+<img src="https://github.com/tejasvi/AI_Hackathon/raw/master/genesis/overview.svg?sanitize=true">
 
 * The audio is first converted to WAV format which is the uncompressed form.
 
@@ -30,7 +30,7 @@
 
 * The obtained keywords can further be used to generate readable sentences using [NLG](https://en.wikipedia.org/wiki/Natural-language_generation). However it proved to be much tedious to prototype.
 
-<img src="https://github.com/tejasvi/AI_Hackathon/raw/master/planned.svg?sanitize=true">
+<img src="https://github.com/tejasvi/AI_Hackathon/raw/master/genesis/planned.svg?sanitize=true">
 
 
 * The problem scope can be extended to object level reseasoning in images. This will provide more context to the description by using videos along with audio.
@@ -60,10 +60,10 @@ Speech recognition uses [DeepSpeech](https://github.com/mozilla/DeepSpeech) arch
 
 The parameters of ResNet18 are initialized for ImageNet dataset instead of being random. The random initialization demonstrably converged slower than intializion to ImageNet weights.
 #### Random Initialization
-<img src="https://github.com/tejasvi/AI_Hackathon/raw/master/random_init.JPG">
+<img src="https://github.com/tejasvi/AI_Hackathon/raw/master/genesis/random_init.JPG">
 
 #### ImageNet Initialization
-<img src="https://github.com/tejasvi/AI_Hackathon/raw/master/img_init.JPG">
+<img src="https://github.com/tejasvi/AI_Hackathon/raw/master/genesis/img_init.JPG">
 
 However freezing inner layers not gave good results. Instead we had to unfreeze all layers to get fast convergence. It may be because the images of ImageNet have much different features therefore inner layers also require training.
 
