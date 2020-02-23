@@ -65,7 +65,7 @@ The parameters of ResNet18 are initialized for ImageNet dataset instead of being
 #### ImageNet Initialization
 <img src="https://github.com/tejasvi/AI_Hackathon/raw/master/genesis/img_init.JPG">
 
-However freezing inner layers not gave good results. Instead we had to unfreeze all layers to get fast convergence. It may be because the images of ImageNet have much different features therefore inner layers also require training.
+However freezing inner layers did not give any good results. Instead we had to unfreeze all layers to achieve faster convergence. It may be because the images of ImageNet have much different features therefore inner layers also required training.
 
 
 ## Execution
