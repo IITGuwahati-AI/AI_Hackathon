@@ -14,14 +14,7 @@
 
 
 # Team_Name 
-# Team_Name
 ## Members
-
-
-## XYZ
-- [a](https://github.com/a)
-- [b](https://github.com/b)
-- [c](https://github.com/c)
 
 ## Aztecs
 - [Shridhar Hegde](https://github.com/shridharrhegde)
